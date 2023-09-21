@@ -1,0 +1,10 @@
+{
+  "mode": "pre",
+  "tag": "canary",
+  "initialVersions": {
+    "@tempest/client": "0.0.0",
+    "@tempest/common": "0.0.0",
+    "@tempest/worker": "0.0.0"
+  },
+  "changesets": []
+}

@@ -11,12 +11,11 @@
     "peerDependencies": {
         "@nestjs/common": "^10.0.0",
         "@temporalio/client": "^1.8.6",
+        "@tempest/common": "*",
         "rxjs": "7.8.1"
     },
     "devDependencies": {
         "typescript": "^5.2.2"
     },
-    "dependencies": {
-        "@tempest/common": "*"
-    }
+    "dependencies": {}
 }
