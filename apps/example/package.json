@@ -28,7 +28,7 @@
     "@nestjs/common": "^10.0.0",
     "@nestjs/core": "^10.0.0",
     "@nestjs/platform-express": "^10.0.0",
-    "@tempest/client": "*",
+    "@tempest/client": "0.0.1-canary.0",
     "@tempest/common": "*",
     "@tempest/worker": "*",
     "@temporalio/activity": "^1.8.6",

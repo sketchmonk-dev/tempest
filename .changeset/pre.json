@@ -4,7 +4,10 @@
   "initialVersions": {
     "@tempest/client": "0.0.0",
     "@tempest/common": "0.0.0",
-    "@tempest/worker": "0.0.0"
+    "@tempest/worker": "0.0.0",
+    "example": "0.0.1"
   },
-  "changesets": []
+  "changesets": [
+    "slow-beers-punch"
+  ]
 }
