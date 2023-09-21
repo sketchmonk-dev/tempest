@@ -38,13 +38,13 @@ importers:
       '@nestjs/platform-express':
         specifier: ^10.0.0
         version: 10.0.0(@nestjs/common@10.0.0)(@nestjs/core@10.0.0)
-      '@tempest/client':
-        specifier: '*'
+      '@sketchmonk/tempest-client':
+        specifier: 0.0.1-canary.0
         version: link:../../packages/client
-      '@tempest/common':
+      '@sketchmonk/tempest-common':
         specifier: '*'
         version: link:../../packages/common
-      '@tempest/worker':
+      '@sketchmonk/tempest-worker':
         specifier: '*'
         version: link:../../packages/worker
       '@temporalio/activity':
@@ -148,18 +148,12 @@ importers:
         specifier: ^5.2.2
         version: 5.2.2
 
-  generated/api:
-    devDependencies:
-      changeset:
-        specifier: ^0.2.6
-        version: 0.2.6
-
   packages/client:
     dependencies:
       '@nestjs/common':
         specifier: ^10.0.0
         version: 10.0.0(reflect-metadata@0.1.13)(rxjs@7.8.1)
-      '@tempest/common':
+      '@sketchmonk/tempest-common':
         specifier: '*'
         version: link:../common
       '@temporalio/client':
@@ -2914,13 +2908,6 @@ packages:
       title-case: 2.1.1
       upper-case: 1.1.3
       upper-case-first: 1.1.2
-    dev: true
-
-  /changeset@0.2.6:
-    resolution: {integrity: sha512-d21ym9zLPOKMVhIa8ulJo5IV3QR2NNdK6BWuwg48qJA0XSQaMeDjo1UGThcTn7YDmU08j3UpKyFNvb3zplk8mw==}
-    dependencies:
-      udc: 1.0.1
-      underscore: 1.13.6
     dev: true
 
   /char-regex@1.0.2:
@@ -7754,10 +7741,6 @@ packages:
       randexp: 0.5.3
       typescript: 5.2.2
 
-  /udc@1.0.1:
-    resolution: {integrity: sha512-jv+D9de1flsum5QkFtBdjyppCQAdz9kTck/0xST5Vx48T9LL2BYnw0Iw77dSKDQ9KZ/PS3qPO1vfXHDpLZlxcQ==}
-    dev: true
-
   /uglify-js@3.17.4:
     resolution: {integrity: sha512-T9q82TJI9e/C1TAxYvfb16xO120tMVFZrGA3f9/P4424DNu6ypK103y0GPFVa17yotwSyZW5iYXgjYHkGrJW/g==}
     engines: {node: '>=0.8.0'}
@@ -7779,10 +7762,6 @@ packages:
       has-bigints: 1.0.2
       has-symbols: 1.0.3
       which-boxed-primitive: 1.0.2
-    dev: true
-
-  /underscore@1.13.6:
-    resolution: {integrity: sha512-+A5Sja4HP1M08MaXya7p5LvjuM7K6q/2EaC0+iovj/wOcMsTzMvDFbasi/oSapiwOlt252IqsKqPjCl7huKS0A==}
     dev: true
 
   /unionfs@4.5.1:

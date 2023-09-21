@@ -1,6 +1,6 @@
 {
-  "name": "@tempest/common",
-  "version": "0.0.0",
+  "name": "@sketchmonk/tempest-common",
+  "version": "0.0.1-canary.0",
   "private": false,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -13,6 +13,5 @@
   },
   "peerDependencies": {
     "@temporalio/common": "^1.8.6"
-  },
-  "packageManager": "pnpm@7.30.5"
+  }
 }

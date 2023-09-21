@@ -1,6 +1,6 @@
 {
-    "name": "@tempest/client",
-    "version": "0.0.1-canary.0",
+    "name": "@sketchmonk/tempest-client",
+    "version": "0.0.1-canary.1",
     "private": false,
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -11,7 +11,7 @@
     "peerDependencies": {
         "@nestjs/common": "^10.0.0",
         "@temporalio/client": "^1.8.6",
-        "@tempest/common": "*",
+        "@sketchmonk/tempest-common": "0.0.1-canary.0",
         "rxjs": "7.8.1"
     },
     "devDependencies": {
