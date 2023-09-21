@@ -9,6 +9,9 @@
     "dev": {
       "cache": false,
       "persistent": true
-    }
+    },
+    "nestia:e2e": {},
+    "nestia:sdk": {},
+    "nestia:swagger": {}
   }
 }

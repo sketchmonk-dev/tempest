@@ -18,6 +18,9 @@
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
     "test:e2e": "jest --config ./test/jest-e2e.json",
+    "nestia:sdk": "nestia sdk",
+    "nestia:swagger": "nestia swagger",
+    "nestia:e2e": "nestia e2e",
     "postinstall": "ts-patch install"
   },
   "dependencies": {
@@ -62,7 +65,8 @@
     "ts-node": "^10.9.1",
     "ts-patch": "^3.0.2",
     "tsconfig-paths": "^4.2.0",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "@tempest/example-sdk": "*"
   },
   "jest": {
     "moduleFileExtensions": [
