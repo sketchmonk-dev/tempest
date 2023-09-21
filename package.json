@@ -1,8 +1,8 @@
 {
-  "name": "turborepo-empty-starter",
+  "name": "tempest",
   "version": "1.0.0",
   "private": true,
-  "description": "An empty Turborepo starter",
+  "description": "NestJs wrapper libraries for temporal",
   "main": "index.js",
   "scripts": {
     "build": "turbo build",
@@ -10,7 +10,18 @@
     "dev": "turbo dev"
   },
   "keywords": [],
-  "author": "tknickman",
+  "author": "Sketchmonk",
   "license": "ISC",
-  "packageManager": "pnpm@7.30.5"
+  "packageManager": "pnpm@7.30.5",
+  "devDependencies": {
+    "@turbo/gen": "^1.10.14",
+    "cz-conventional-changelog": "^3.3.0",
+    "turbo": "1.10.14",
+    "typescript": "^5.2.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }

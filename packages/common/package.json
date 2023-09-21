@@ -1,0 +1,18 @@
+{
+  "name": "@tempest/common",
+  "version": "0.0.0",
+  "private": false,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "peerDependencies": {
+    "@temporalio/common": "^1.8.6"
+  },
+  "packageManager": "pnpm@7.30.5"
+}
